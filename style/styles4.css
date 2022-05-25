@@ -4,8 +4,9 @@ input[type="radio"] {
 }
 .logo {
   position: relative;
-  left: 210%;
-  width: 70%;
+  margin-left: 10%;
+  width: 100%;
+  padding: 6px 10px;
 }
 
 .buttons {
