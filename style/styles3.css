@@ -1,38 +1,33 @@
-
-body, html {
-  background-color:silver ;
+body,
+html {
+  background-color: silver;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.logo
-{ 
-
-  position:relative;
-  left:210%;
-  width:70%;
+.logo {
+  position: relative;
+  left: 210%;
+  width: 70%;
 }
 
-.buttons
-{   
-    position:relative;
-	left:15%;
-	padding:10px;
-	top:50px;
-	
+.buttons {
+  position: relative;
+  left: 15%;
+  padding: 10px;
+  top: 50px;
 }
 
-.button
-{
-    font-family:verdana;
-	background-color:black;
-	color:white;
-	border:none;
-	padding:6px 10px;
-	font-size:20px;
-	outline:none;
-	border-radius:5px;
-	cursor: pointer;
-	margin:4px 2px;
+.button {
+  font-family: verdana;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 4px 2px;
 }
 
 .button:hover {
@@ -40,11 +35,10 @@ body, html {
   color: white;
 }
 
-.header
-{
-	display:flex;
-	justify-content:space-around;
-} 
+.header {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*navigation bar*/
 #navbar {
@@ -52,8 +46,7 @@ body, html {
   background-color: #333;
   margin-left: auto;
   margin-right: auto;
-  display:flex;
-  
+  display: flex;
 }
 
 #navbar a {
@@ -90,52 +83,47 @@ body, html {
   padding-top: 1px;
 }
 
-
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 7.5%;
-  padding:0%;
+  padding: 0%;
   height: auto;
 }
 
-
 /*FOOTER*/
 
-.footer{
-	text-align: left;
-	background-color:#333;
-	color:white;
-    text-align: center;
-	
-   
+.footer {
+  text-align: left;
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
-a{
-	color: white;
-	
+a {
+  color: white;
 }
 .fa:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
-
-
 .flogo {
   display: block;
-  align:left;
+  align: left;
   width: 7%;
-  padding:1%;
+  padding: 1%;
   height: auto;
 }
 hr.bottom {
   border: 1px solid gold;
   border-radius: 100px;
+}
+
